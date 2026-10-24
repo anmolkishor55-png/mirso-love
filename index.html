@@ -1,37 +1,136 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ask Her Out</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#211c3c">
+  <title>For Mirso 🌙💗</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="hearts" aria-hidden="true"></div>
 
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div
-        class="tenor-gif-embed"
-        data-postid="22885016"
-        data-share-method="host"
-        data-aspect-ratio="1.04918"
-        data-width="100%"
-      >
-        <a href="https://tenor.com/view/manja-gif-22885016">Manja Sticker</a
-        >from
-        <a href="https://tenor.com/search/manja-stickers">Manja Stickers</a>
-      </div>
-      <script
-        type="text/javascript"
-        async
-        src="https://tenor.com/embed.js"
-      ></script>
-      <h1>DO you love me? 🤗</h1>
-      <p>~Ankit is all yours</p>
+  <header class="top">
+    <span>🌙 OUR LITTLE UNIVERSE ✨</span>
+  </header>
 
-      <div class="btn">
-        <a href="yes.html">Yes</a>
-        <a href="no1.html">No</a>
+  <main>
+    <section class="hero">
+      <div class="moon">🌙</div>
+      <p class="eyebrow">A little world made just for you</p>
+      <h1>My Mirso <span>♡</span></h1>
+      <p class="subtitle">
+        In a universe full of stars,<br>
+        my heart will always find you.
+      </p>
+      <div class="names">Ur bby😘 <span>♥</span> Mirso</div>
+      <a class="main-button" href="#letter">Open your little surprise 💌</a>
+      <p class="tiny">Made with love, only for you ✨</p>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">OUR LITTLE MEMORIES</p>
+      <h2>My favourite person 📸</h2>
+      <p class="description">
+        Every picture holds a little piece of my heart.
+      </p>
+
+      <div class="gallery">
+        <figure>
+          <img src="assets/mirso1.jpg" alt="Our first favourite memory"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder">🌸<br>Our favourite memory</div>
+          <figcaption>My favourite view is you ♡</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/mirso2.jpg" alt="A precious memory together"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder">🌷<br>A precious memory</div>
+          <figcaption>You make my world softer 💗</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/mirso3.jpg" alt="A special moment together"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder">✨<br>Our special moment</div>
+          <figcaption>One memory, a thousand feelings</figcaption>
+        </figure>
       </div>
-    </div>
-  </body>
+      <p class="tiny">Our memories, our little universe 🌙</p>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <p class="eyebrow">A LETTER FROM YOUR BBY</p>
+      <h2>For you, Mirso 💌</h2>
+      <div class="envelope">💌</div>
+      <p class="description">
+        There are some feelings that are too beautiful
+        to leave unspoken.
+      </p>
+      <button id="open-letter" class="main-button" type="button"
+              aria-expanded="false" aria-controls="love-letter">
+        Open my letter ♡
+      </button>
+
+      <article id="love-letter" class="letter" hidden>
+        <p>My dearest Mirso, 🌙</p>
+
+        <p>
+          If I could give you one thing in this world,
+          it would be the ability to see yourself through
+          my eyes. Maybe then you would understand how
+          special you are to me.
+        </p>
+
+        <p>
+          You have become such a beautiful part of my
+          little universe. Even an ordinary day feels
+          more magical when I get to share a piece of it
+          with you.
+        </p>
+
+        <p>
+          I don't promise that every day will be perfect.
+          But I want to keep choosing you, listening to you,
+          supporting you, and finding new reasons to make
+          you smile.
+        </p>
+
+        <p>
+          Just like the moon finds its place among the stars,
+          my heart has found a special place with you.
+          No fancy words can fully explain what you mean to me.
+        </p>
+
+        <p>
+          So whenever you miss me, remember this:
+          somewhere in this big universe, there's a bby
+          who feels incredibly lucky to have you in his life. 💗
+        </p>
+
+        <p class="signature">
+          Forever sending you love,<br>
+          Ur bby😘
+        </p>
+      </article>
+    </section>
+
+    <section class="final-section">
+      <div class="sparkle">✦ ♡ ✦</div>
+      <h2>My moon, my Mirso 🌙</h2>
+      <p>
+        No matter how many stars fill the sky,
+        you will always be my favourite.
+      </p>
+      <p class="final-love">I love you, Mirso. ♡</p>
+      <button id="heart-button" class="heart-button" type="button">
+        💗 Send me a little love
+      </button>
+      <p id="heart-message" class="tiny" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>Made with ♡ by Ur bby😘, for Mirso</footer>
+</body>
 </html>
